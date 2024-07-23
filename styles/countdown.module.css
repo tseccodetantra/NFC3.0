@@ -1,0 +1,120 @@
+.countContainer {
+	margin-top: 30px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	z-index: 10; /* Ensuring container is above other elements */
+  }
+  
+  .countContent {
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+	flex-wrap: wrap; /* Allow wrapping for responsiveness */
+	justify-content: center;
+	margin: auto;
+	gap: 12px;
+  }
+  
+  .countHeader {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	font-size: 30px;
+	color: #FFD700; 
+	position: relative;
+	z-index: 20; /* Ensuring text is above other elements */
+  }
+  
+  .countBox {
+	width: calc(50% - 24px); /* Adjust width for responsive design */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 150px;
+	max-width: 150px;
+	position: relative;
+	z-index: 10; /* Ensuring box is above other elements */
+  }
+  
+  .countValue {
+	font-size: 30px;
+	font-weight: 600;
+	background: url('../public/images/bg.png') no-repeat center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid #DAA520;
+	text-shadow: 2px 2px #000;
+	border-radius: 10px;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	box-shadow: -2px 0px 5px 1px #232423ad;
+	font-family: 'Pirata One', cursive;
+	color: #835211;
+  }
+  
+  .countLabel {
+	font-size: 20px;
+	font-weight: 100;
+	letter-spacing: 4px;
+	margin-top: 10px;
+	font-family: 'Pirata One', cursive;
+	color: #FFD700;  
+	position: relative;
+	z-index: 20; /* Ensuring text is above other elements */
+  }
+  
+  /* For small screen */
+  @media screen and (max-width: 768px) {
+	.countContainer {
+	  margin-top: 30px;
+	  /* padding: 10px; */
+	  display: flex;
+	  flex-direction: column;
+	  position: relative;
+	  z-index: 10; /* Ensuring container is above other elements */
+	}
+	
+	.countContent {
+	  gap: 0px;
+	}
+  
+	.countBox {
+	  width: calc(50% - 12px); /* Adjust width for responsive design */
+	  height: 150px;
+	  max-width: 150px;
+	}
+  }
+  
+  /* For large screen */
+  @media screen and (min-width: 768px) {
+	.countContent {
+	  gap: 30px;
+	}
+	.countValue {
+	  font-size: 50px;
+	  width: 120px;
+	  height: 120px;
+	}
+	.countBox {
+	  height: 200px;
+	  max-width: 200px;
+	}
+  }
+  
+  @media screen and (min-width: 790px) {
+	.countValue {
+	  font-size: 100px;
+	  height: 200px;
+	  width: 200px;
+	}
+	.countBox {
+	  max-width: 200px;
+	  height: 250px;
+	}
+  }
+  

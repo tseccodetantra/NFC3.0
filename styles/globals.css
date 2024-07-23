@@ -1,0 +1,63 @@
+@import "./index.css";
+@import "./preloader.css";
+@import "./particle.css";
+@import "./navbar.css";
+@import "./home.css";
+@import "./about.css";
+@import "./wihts.css";
+@import "./venue.css";
+@import "./schedule.css";
+@import "./sponsor.css";
+@import "./organiser.css";
+@import "./why_sponsor.css";
+@import "./sponsor-prizes.css";
+@import "./footer.css";
+@import "./tracks.css";
+@import "./faqs.css";
+@import "./built.css";
+@import "./animated.css";
+@import "animate.css";
+@import "./card.css";
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  /* overflow-x:clip; */
+  scroll-behavior: smooth;
+  font-family: 'Pirata One', cursive; /* Default font of text */
+}
+
+/* Media query for devices with a max width of 600px (typically phones) */
+@media (max-width: 600px) {
+  * {
+    font-family: "Poppins", sans-serif; /* Change to non-cursive font for phones */
+  }
+}
+
+:root {
+  --transparent-gray: rgba(128, 128, 128, 0.25);
+  --primary-blue: rgb(167 139 250 / 1);
+  --secondary-blue: rgb(167 139 250 / 0.7);
+  --primary-black: rgba(0, 0, 0, 0.7);
+  --secondary-black: rgba(0, 0, 0, 0.3);
+  --primary-pink: #ffea00;
+  --white: #fff;
+  --animate-duration: 1000ms !important;
+  --animate-delay: 0.9s !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  z-index: 1;
+  background-color: #141414;
+ 
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
