@@ -4,7 +4,7 @@ import SectionLayout from "../SectionLayout";
 const Journey = () => {
   return (
     <SectionLayout
-      Title={"JOURNEY OF NEED FOR CODE"}
+      Title={"JOURNEY OF NEED FOR CODE 2.0"}
       Classname={"venue-section-container built-section"}
     >
       <div
