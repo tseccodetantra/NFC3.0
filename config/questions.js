@@ -16,7 +16,7 @@ export const questionConfig = {
         {
           id: "3",
           Q: "How can I register for Need For Code 3.0 and is there a registration fee?",
-          A: "You can register for Need For Code 3.0 through CodeTantra’s website directly or through Devfolio. No participation fees are required, however once shortlisted you may have to pay nominal fees.",
+          A: "You can register for Need For Code 3.0 through Devfolio. No participation fees are required, Hackathon is completely free.",
         },
         {
           id: "4",
