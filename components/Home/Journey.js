@@ -13,9 +13,9 @@ const Journey = () => {
       >
         <Card
           heading={"Total Registrations"}
-          content={"300+ teams registered"}
+          content={"1300+ registered"}
         />
-        <Card heading={"Total Teams"} content={"70+ teams participated"} />
+        <Card heading={"Total Participants"} content={"350+ participated"} />
       </div>
     </SectionLayout>
   );

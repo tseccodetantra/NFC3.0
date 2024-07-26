@@ -89,26 +89,31 @@ const Landing = () => {
             Mumbai, Maharashtra
           </p>
 
-          {/* <div className="butHolder">
+          <div className="butHolder">
             <button type="button" className="Btn zinc-bg">
-              <a href="#" target="_blank"> 
-                <div className="gradient-mask blue-bg"></div>
+              <img 
+                src="./images/sponsor/devfolio-D.png"
+                alt="Devfolio" 
+                className={styles.buttonImg}
+              />
+              <a href="https://needforcode.devfolio.co/" target="_blank"> 
+                <div className="gradient-mask blue-bg "></div>
                 <span className="text" style={{ color: "white", fontSize: 16 }}>
                   Apply with Devfolio
                 </span>
               </a>
             </button>
-          </div> */}
-          <div className="butHolder">
+          </div>
+          {/* <div className="butHolder">
             <button type="button" className="Btn zinc-bg">
-              <a href="#" target="_blank"> {/* Change the href once devfolio link is activated */}
+              <a href="#" target="_blank">
                 <div className="gradient-mask blue-bg"></div>
                 <span className="text" style={{ color: "white", fontSize: 16, marginLeft:"-25px",width:"250px" }}>
                   Registration starting soon...
                 </span>
               </a>
             </button>
-          </div>
+          </div> */}
         </div>
         <div className={`${styles.cost2} ${styles.animateImage}`}>
           {/* <img

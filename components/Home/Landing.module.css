@@ -58,6 +58,7 @@
 
 @media (max-width: 768px) {
   .backgroundVideo {
+    background-color: black;
     position: absolute;
     /* top: 0; */
     /* bottom: 100; */
@@ -78,4 +79,9 @@
     overflow: hidden;
     overflow-x: hidden;
   }
+}
+.buttonImg{
+  width: 15%;
+  margin-left: -230px;
+  z-index: 100;
 }

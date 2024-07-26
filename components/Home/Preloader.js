@@ -62,7 +62,7 @@ const Preloader = () => {
 
         .textCon h1:nth-child(2) {
           color: #03a9f4;
-          animation: animate 4s ease-in-out infinite;
+          animation: animate 3.5s ease-in-out infinite;
         }
 
         @keyframes animate {

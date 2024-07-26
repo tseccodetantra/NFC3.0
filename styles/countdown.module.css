@@ -70,6 +70,10 @@
   
   /* For small screen */
   @media screen and (max-width: 768px) {
+	.countLabel {
+		font-family: "Poppins", sans-serif;
+	}
+
 	.countContainer {
 	  margin-top: 30px;
 	  /* padding: 10px; */

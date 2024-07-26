@@ -13,7 +13,7 @@ import "animate.css";
 import Preloader from "../components/Home/Preloader";
 import ImageSlider from "../components/ImageSlider";
 import Prize from "../components/Prize"
-const targetDate = "2024-08-20T23:59:59"; // Replace with your target date
+const targetDate = "2024-08-20T23:59:00"; // Replace with your target date
 
 const index = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -34,7 +34,7 @@ const index = () => {
     const fakeDataFetch = () =>{
         setTimeout(()=>{
           setLoading(false);
-        },4000)
+        },3500)
     }
     fakeDataFetch();
   }, [])

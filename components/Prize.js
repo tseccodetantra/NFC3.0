@@ -258,7 +258,7 @@ const Prize = () => {
             <PlanHeader>
               <TrophyImage src="./images/pirates/Trophy/Silver_Trophy.png" alt="Second Prize Trophy" />
               <PlanTitle>2nd Prize</PlanTitle>
-              <PlanPrice>To be Revealed</PlanPrice>
+              <PlanPrice>₹ 20,000</PlanPrice>
             </PlanHeader>
           </PricingPlan>
 
@@ -266,7 +266,7 @@ const Prize = () => {
             <PlanHeader>
               <TrophyImage src="./images/pirates/Trophy/Golden_Trophy.png" alt="First Prize Trophy" />
               <PlanTitle>1st Prize</PlanTitle>
-              <PlanPrice>To be Revealed</PlanPrice>
+              <PlanPrice>₹ 30,000</PlanPrice>
             </PlanHeader>
           </PricingPlan>
 
@@ -274,7 +274,7 @@ const Prize = () => {
             <PlanHeader>
               <TrophyImage src="./images/pirates/Trophy/Bronze_Trophy.png" alt="Third Prize Trophy" />
               <PlanTitle>3rd Prize</PlanTitle>
-              <PlanPrice>To be Revealed</PlanPrice>
+              <PlanPrice>₹ 15,000</PlanPrice>
             </PlanHeader>
           </PricingPlan>
         </PricingTable>
