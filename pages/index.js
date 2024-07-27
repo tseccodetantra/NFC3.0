@@ -56,7 +56,7 @@ const index = () => {
       <Schedule />
       <Prize/>
       <Venue />
-      {/* <Sponsor />  */}
+      <Sponsor /> 
       <FAQS />
     </Layout>
       </div>

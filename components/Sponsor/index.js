@@ -52,11 +52,11 @@ const Sponsor = () => {
           ))}
         </SponsorContainer> */}
         <SponsorContainer
-          Name={bronze.Name}
-          Img={bronze.Img}
-          Type={bronze.Type}
+          Name={silver.Name}
+          Img={silver.Img}
+          // Type={silver.Type}
         >
-          {bronze.Sponsor.map((sponsor) => (
+          {silver.Sponsor.map((sponsor) => (
             <SponsorWrapper
               key={sponsor.id}
               Name={sponsor.Name}

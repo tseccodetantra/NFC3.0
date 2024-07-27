@@ -16,91 +16,97 @@ export const sponsorConfig = {
         Name: "Devfolio",
         Img: "./images/sponsor/Devfolio_Logo-White.png",
       },
-      {
-        id: "2",
-        Name: "Polygon",
-        Img: "./images/sponsor/Polygon_Logo-Colored@2x.png",
-      },
+
     ],
   },
 
-  // silver: {
-  //   id: "2",
-  //   Name: "silver",
-  //   Img: "./images/sponsor/Mandolorian Coin Silver.png",
-  //   Type: "platinum",
-  //   Sponsor: [
-  //     // {
-  //     //   id: "1",
-  //     //   Name: "Filecoin",
-  //     //   Img: "./images/sponsor/Filecoin Coloured White Text-1.png",
-  //     // },
-  //     // {
-  //     //   id: "2",
-  //     //   Name: "Solana",
-  //     //   Img: "./images/sponsor/Solana Dark.png",
-  //     // },
-  //     // {
-  //     //   id: "3",
-  //     //   Name: "Replit",
-  //     //   Img: "./images/sponsor/Replit-Dark-Background.png",
-  //     // },
-  //   ],
-  // },
-
-  bronze: {
-    id: "3",
-    Name: "bronze",
-    Img: "./images/sponsor/Mando Coin br.png",
-    Type: "",
+  silver: {
+    id: "2",
+    Name: "silver",
+    Img: "./images/sponsor/Mandolorian Coin Silver.png",
+    Type: "platinum",
     Sponsor: [
       {
         id: "1",
-        Name: "Coding Ninjas",
-        Img: "./images/sponsor/CN.png",
+        Name: "Polygon",
+        Img: "./images/sponsor/Polygon_Logo-Colored@2x.png",
       },
       {
         id: "2",
-        Name: "Solana",
-        Img: "./images/sponsor/Solana Dark.png",
+        Name: "Eth India",
+        Img: "./images/sponsor/ethindia-logo.png",
       },
-      {
-        id: "3",
-        Name: "Replit",
-        Img: "./images/sponsor/Replit-Dark-Background.png",
-      },
-      {
-        id: "1",
-        Name: "Filecoin",
-        Img: "./images/sponsor/Filecoin Coloured White Text-1.png",
-      },
-      {
-        id: "5",
-        Name: "VerbWire",
-        Img: "./images/sponsor/Verbwire.png",
-      },
-      {
-        id: "6",
-        Name: "Bombay Curry",
-        Img: "./images/sponsor/the_bombay_curry-removebg-preview.png",
-      },
-      {
-        id: "7",
-        Name: "Bombay Burgers",
-        Img: "./images/sponsor/Bombay Burger.png",
-      },
-      {
-        id: "8",
-        Name: "hoverRobotix",
-        Img: "./images/sponsor/hoverrobotix.png",
-      },
-      {
-        id: "9",
-        Name: "Internshala",
-        Img: "./images/sponsor/internshala.png",
-      },
+      // {
+      //   id: "1",
+      //   Name: "Filecoin",
+      //   Img: "./images/sponsor/Filecoin Coloured White Text-1.png",
+      // },
+      // {
+      //   id: "2",
+      //   Name: "Solana",
+      //   Img: "./images/sponsor/Solana Dark.png",
+      // },
+      // {
+      //   id: "3",
+      //   Name: "Replit",
+      //   Img: "./images/sponsor/Replit-Dark-Background.png",
+      // },
     ],
   },
+
+  // bronze: {
+  //   id: "3",
+  //   Name: "bronze",
+  //   Img: "/images/sponsor/Mando Coin br.png",
+  //   Type: "",
+  //   Sponsor: [
+      // {
+      //   id: "1",
+      //   Name: "Coding Ninjas",
+      //   Img: "./images/sponsor/CN.png",
+      // },
+  //     {
+  //       id: "2",
+  //       Name: "Solana",
+  //       Img: "/images/sponsor/Solana Dark.png",
+  //     },
+  //     {
+  //       id: "3",
+  //       Name: "Replit",
+  //       Img: "./images/sponsor/Replit-Dark-Background.png",
+  //     },
+  //     {
+  //       id: "1",
+  //       Name: "Filecoin",
+  //       Img: "./images/sponsor/Filecoin Coloured White Text-1.png",
+  //     },
+  //     {
+  //       id: "5",
+  //       Name: "VerbWire",
+  //       Img: "./images/sponsor/Verbwire.png",
+  //     },
+  //     {
+  //       id: "6",
+  //       Name: "Bombay Curry",
+  //       Img: "./images/sponsor/the_bombay_curry-removebg-preview.png",
+  //     },
+  //     {
+  //       id: "7",
+  //       Name: "Bombay Burgers",
+  //       Img: "./images/sponsor/Bombay Burger.png",
+  //     },
+  //     {
+  //       id: "8",
+  //       Name: "hoverRobotix",
+  //       Img: "./images/sponsor/hoverrobotix.png",
+  //     },
+  //     {
+  //       id: "9",
+  //       Name: "Internshala",
+  //       Img: "./images/sponsor/internshala.png",
+  //     },
+  //   ],
+  // },
 
   // inkind: {
   //   id: "4",
