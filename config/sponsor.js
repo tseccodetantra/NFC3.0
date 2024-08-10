@@ -63,7 +63,25 @@ export const sponsorConfig = {
       // },
     ],
   },
-
+  
+  inkind: {
+    id: "3",
+    Name: "inkind",
+    Img: "./images/sponsor/Meteor.png",
+    Type: "SPONSORS",
+    Sponsor: [
+      {
+        id: "1",
+        Name: "0x",
+        Img: "./images/sponsor/0x.Day.png",
+      },
+      {
+        id: "2",
+        Name: "Echo3D",
+        Img: "./images/sponsor/Echo3D.png",
+      },
+    ],
+  },
   // bronze: {
   //   id: "3",
   //   Name: "bronze",
@@ -118,44 +136,6 @@ export const sponsorConfig = {
   //   ],
   // },
 
-  // inkind: {
-  //   id: "4",
-  //   Name: "inkind",
-  //   Img: "./images/sponsor/Meteor.png",
-  //   Type: "SPONSORS",
-  //   Sponsor: [
-  //     {
-  //       id: "1",
-  //       Name: "Taskade",
-  //       Img: "./images/sponsor/Taskade.png",
-  //     },
-  //     {
-  //       id: "2",
-  //       Name: "Echo3D",
-  //       Img: "./images/sponsor/Echo3D.png",
-  //     },
-  //     {
-  //       id: "3",
-  //       Name: "Xyz",
-  //       Img: "./images/sponsor/XYZ.png",
-  //     },
-  //     {
-  //       id: "4",
-  //       Name: "Axure",
-  //       Img: "./images/sponsor/Axure.png",
-  //     },
-  //     {
-  //       id: "5",
-  //       Name: "Rosenfeld",
-  //       Img: "./images/sponsor/Rosenfeld-logo.png",
-  //     },
-  //     {
-  //       id: "6",
-  //       Name: "Keploy",
-  //       Img: "./images/sponsor/keploy-logo.png",
-  //     },
-  //   ],
-  // },
   // hiringPartner: {
   //   id: "5",
   //   Name: "hiringPartner",

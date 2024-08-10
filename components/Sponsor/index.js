@@ -64,7 +64,7 @@ const Sponsor = () => {
             />
           ))}
         </SponsorContainer>
-        {/* <SponsorContainer
+        <SponsorContainer
           Name={inkind.Name}
           Img={inkind.Img}
           Type={inkind.Type}
@@ -77,7 +77,7 @@ const Sponsor = () => {
             />
           ))}
         </SponsorContainer>
-        <SponsorContainer
+        {/* <SponsorContainer
           Name={hiringPartner.Name}
           Img={hiringPartner.Img}
           Type={hiringPartner.Type}
