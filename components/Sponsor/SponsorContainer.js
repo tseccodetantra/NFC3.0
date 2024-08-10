@@ -11,7 +11,7 @@ const SponsorContainer = ({ Name, Img, Type, children, wid }) => {
           alt={Name}
           style={
             Name === "inkind" || Name === "hiringPartner" || Name === "mediaPartner"
-              ? { opacity: "0" }
+              ? { opacity: "1" }
               : {}
           }
           width={100}

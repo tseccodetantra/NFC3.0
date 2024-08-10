@@ -19,12 +19,12 @@ export const sponsorConfig = {
       {
         id: "2",
         Name: "Manish Kumar Barui",
-        Img: "./images/sponsor/mkb.jpg",
+        Img: "./images/sponsor/mkb.png",
       },
       {
         id: "3",
         Name: "369 group",
-        Img: "./images/sponsor/369.jpg",
+        Img: "./images/sponsor/369.png",
       },
 
     ],
@@ -73,7 +73,12 @@ export const sponsorConfig = {
       {
         id: "1",
         Name: "0x",
-        Img: "./images/sponsor/Taskade.png",
+        Img: "./images/sponsor/0x.Day.png",
+      },
+      {
+        id: "2",
+        Name: "Factor Notes",
+        Img: "./images/sponsor/factornotes.png",
       },
     ],
   },
