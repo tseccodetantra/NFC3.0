@@ -161,7 +161,7 @@
 .sponsor-section .sponsor .pic img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: fit;
 }
 
 .sponsor-section .sponsor .wrapper {
