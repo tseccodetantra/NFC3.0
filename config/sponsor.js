@@ -16,6 +16,16 @@ export const sponsorConfig = {
         Name: "Devfolio",
         Img: "./images/sponsor/Devfolio_Logo-White.png",
       },
+      {
+        id: "2",
+        Name: "Manish Kumar Barui",
+        Img: "./images/sponsor/mkb.jpg",
+      },
+      {
+        id: "3",
+        Name: "369 group",
+        Img: "./images/sponsor/369.jpg",
+      },
 
     ],
   },
