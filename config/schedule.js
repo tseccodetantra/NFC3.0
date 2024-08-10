@@ -78,7 +78,7 @@ export const scheduleConfig = {
           Direction: "left",
           Img: "./images/pirates/schedule/judging.png",
           Time: "1:00 PM",
-          Description: "Announcement of top 10 teams",
+          Description: "Announcement of finalist teams",
         },
         {
           id: "11",
