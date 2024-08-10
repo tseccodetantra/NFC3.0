@@ -67,18 +67,13 @@ export const sponsorConfig = {
   inkind: {
     id: "3",
     Name: "inkind",
-    Img: "./images/sponsor/Meteor.png",
-    Type: "",
+    Img: "./images/sponsor/inkind.png",
+    Type: "SPONSORS",
     Sponsor: [
       {
         id: "1",
         Name: "0x",
-        Img: "./images/sponsor/0x.Day.png",
-      },
-      {
-        id: "2",
-        Name: "Echo3D",
-        Img: "./images/sponsor/Echo3D.png",
+        Img: "./images/sponsor/Taskade.png",
       },
     ],
   },
