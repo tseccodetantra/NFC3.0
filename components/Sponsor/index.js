@@ -67,7 +67,7 @@ const Sponsor = () => {
         <SponsorContainer
           Name={inkind.Name}
           Img={inkind.Img}
-          Type={inkind.Type}
+          // Type={inkind.Type}
         >
           {inkind.Sponsor.map((sponsor) => (
             <SponsorWrapper
