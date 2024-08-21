@@ -31,7 +31,7 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
     <div className={styles.countContainer}>
-      <h2 className={styles.countHeader}>Registration ends in...</h2>
+      <h2 className={styles.countHeader}>Hackathon Starts in...</h2>
       <div className={styles.countContent}>
         {Object.keys(timeLeft).length > 0 ? (
           <>
